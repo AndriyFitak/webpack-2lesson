@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="start">
+        <button class="startBtn" id="btnRegistration">Реєстрація</button>
+        <button class="startBtn" id="btnLogin">Вхід</button>
+    </div>
+  <form  id="registrationForm" class="hidden">
+        <label for="name">Ім'я:</label>
+        <input class="inputReg" type="text" id="name">
+        <br>
+        <label for="login">Логін:</label>
+        <input type="text" id="login">
+        <br>
+        <label for="password">Пароль:</label>
+        <input type="password" id="password">
+        <br>
+        <button type="button" id="btnRegister">Зареєструватися</button>
+  </form>
+
+  <form id="loginForm" class="hidden">
+        <label for="loginUsername">Логін:</label>
+        <input type="text" id="loginUsername">
+        <br>
+        <label for="loginPassword">Пароль:</label>
+        <input type="password" id="loginPassword">
+        <br>
+        <button type="button" id="btnLoginSubmit">Увійти</button>
+     </form>
+    <script src="./dist/bundle.js"></script>
+</body>
+</html>
